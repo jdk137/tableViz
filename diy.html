@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<script src="scripts/lib/jquery-1.7.2.js"></script>
+<style>
+iframe {
+width: 800px;
+height: 500px;
+}
+</style>
+</head>
+
+<body>
+
+<form action="vis.php" method="post" target="my_iframe">
+<textarea cols="40" rows="5" name="dataSource">
+[
+["id", "value1", "value2"],
+["p1", 5, 4.5],
+["p2", 6, 9.7],
+["p3", 7, 8.3],
+["p4", 8, 7.2],
+["p5", 6, 4.9],
+["p6", 5, 5.0]
+]
+</textarea>
+    <input type="submit" value="Visualize These Data" />
+</form>
+
+<p>
+<button id="bigButton">big</button>
+<button id="smallButton">small</button>
+</p>
+<!--
+[
+["id", "value"],
+["p1", 5],
+["p2", 6],
+["p3", 7],
+["p4", 8],
+["p5", 6],
+["p6", 5]
+]
+
+[
+["goods", "price"],
+["g1", 5.0],
+["g2", 9.0],
+["g3", 7.0],
+["g4", 8.0],
+["g5", 6.5],
+["g6", 5.9]
+]
+
+-->
+<!-- when the form is submitted, the server response will appear in this iframe -->
+<iframe name="my_iframe" src="vis.php"></iframe>
+
+<script>
+$("#bigButton").on("click", function () {
+  var iframe = $("iframe");
+  iframe.width(iframe.width() * 1.1);
+  iframe.height(iframe.height() * 1.1);
+});
+$("#smallButton").on("click", function () {
+  var iframe = $("iframe");
+  iframe.width(iframe.width() * 0.9);
+  iframe.height(iframe.height() * 0.9);
+});
+  
+</script>
+
+</body>
+</html>

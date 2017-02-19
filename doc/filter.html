@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Welcome.md</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body{
+    margin: 0 auto;
+    font-family: Georgia, Palatino, serif;
+    color: #444444;
+    line-height: 1;
+    max-width: 960px;
+    padding: 5px;
+}
+h1, h2, h3, h4 {
+    color: #111111;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, p {
+    margin-bottom: 16px;
+    padding: 0;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 22px;
+    margin: 20px 0 6px;
+}
+h3 {
+    font-size: 21px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 16px;
+}
+a {
+    color: #0099ff;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+a:hover {
+    text-decoration: none;
+    color: #ff6600;
+}
+a:visited {
+    color: purple;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+li {
+    line-height: 24px;
+    margin-left: 44px;
+}
+li ul, li ul {
+    margin-left: 24px;
+}
+p, ul, ol {
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 540px;
+}
+pre {
+    padding: 0px 24px;
+    max-width: 800px;
+    white-space: pre-wrap;
+}
+code {
+    font-family: Consolas, Monaco, Andale Mono, monospace;
+    line-height: 1.5;
+    font-size: 13px;
+}
+aside {
+    display: block;
+    float: right;
+    width: 390px;
+}
+blockquote {
+    border-left:.5em solid #eee;
+    padding: 0 2em;
+    margin-left:0;
+    max-width: 476px;
+}
+blockquote  cite {
+    font-size:14px;
+    line-height:20px;
+    color:#bfbfbf;
+}
+blockquote cite:before {
+    content: '\2014 \00A0';
+}
+
+blockquote p {  
+    color: #666;
+    max-width: 460px;
+}
+hr {
+    width: 540px;
+    text-align: left;
+    margin: 0 auto 0 0;
+    color: #999;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button, input {
+  line-height: normal;
+  *overflow: visible;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type=checkbox], input[type=radio] {
+  cursor: pointer;
+}
+/* override default chrome & firefox settings */
+input:not([type="image"]), textarea {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+label,
+input,
+select,
+textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: normal;
+  margin-bottom: 18px;
+}
+input[type=checkbox], input[type=radio] {
+  cursor: pointer;
+  margin-bottom: 0;
+}
+input[type=text],
+input[type=password],
+textarea,
+select {
+  display: inline-block;
+  width: 210px;
+  padding: 4px;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 18px;
+  height: 18px;
+  color: #808080;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+select, input[type=file] {
+  height: 27px;
+  line-height: 27px;
+}
+textarea {
+  height: auto;
+}
+
+/* grey out placeholders */
+:-moz-placeholder {
+  color: #bfbfbf;
+}
+::-webkit-input-placeholder {
+  color: #bfbfbf;
+}
+
+input[type=text],
+input[type=password],
+select,
+textarea {
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+  -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+  transition: border linear 0.2s, box-shadow linear 0.2s;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+input[type=text]:focus, input[type=password]:focus, textarea:focus {
+  outline: none;
+  border-color: rgba(82, 168, 236, 0.8);
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+/* buttons */
+button {
+  display: inline-block;
+  padding: 4px 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  background-color: #0064cd;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#049cdb), to(#0064cd));
+  background-image: -moz-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -ms-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #049cdb), color-stop(100%, #0064cd));
+  background-image: -webkit-linear-gradient(top, #049cdb, #0064cd);
+  background-image: -o-linear-gradient(top, #049cdb, #0064cd);
+  background-image: linear-gradient(top, #049cdb, #0064cd);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #004b9a;
+  border-bottom-color: #003f81;
+  -webkit-transition: 0.1s linear all;
+  -moz-transition: 0.1s linear all;
+  transition: 0.1s linear all;
+  border-color: #0064cd #0064cd #003f81;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+button:hover {
+  color: #fff;
+  background-position: 0 -15px;
+  text-decoration: none;
+}
+button:active {
+  -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 3px 7px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* CSS stylesheet is based on Kevin Burke's Markdown.css project (http://kevinburke.bitbucket.org/markdowncss) */
+</style>
+</head>
+<body>
+<h1>filter introduction</h1>
+
+<p>只有满足所有过滤条件的行才会被显示。
+一个过滤条件由三部分组成：<strong>列名</strong>，<strong>条件</strong>以及<strong>过滤值</strong>。比如：</p>
+
+<pre><code>weight &gt; 2000
+</code></pre>
+
+<p>其中"weight"为列名， ">" 为条件， 2000为过滤值。整个过滤条件的含义是只有"weight"列的值大于2000才会被显示。再比如：</p>
+
+<pre><code>EVERY is not ""
+</code></pre>
+
+<p>其中"EVERY"为列名， "is not"为条件， 空字符串""为过滤值。整个过滤条件的含义是只有所有列都不为空才会被显示。</p>
+
+<h2>列名</h2>
+
+<p>列名除了表格原有的列名，还增加了<strong>"EVERY"</strong>和<strong>"SOME"</strong>两列。表示所有列或某些列。比如:</p>
+
+<pre><code>SOME is ""
+</code></pre>
+
+<p>将会把某列为空的行过滤出来。</p>
+
+<h2>条件</h2>
+
+<p>条件共有</p>
+
+<pre><code>"is",
+"is not",
+"=",
+"&lt;",
+"&gt;",
+"&gt;=",
+"&lt;=",
+"contains", "contains ignoring case", 
+"does not contain",
+"starts with",
+"ends with",
+"in"
+</code></pre>
+
+<p>共12种。
+其中"=", "&lt;", ">", ">=", "&lt;="可用于字符串和数值的比较情况。当列值和过滤值都为数值项时，进行数值比较，否则进行字符串的比较。</p>
+
+<p>其余条件"is", "is not", "contains", "contains ignoring case", "does not contain", "starts with", "ends with", "in"只处理过滤值为字符串的情况。其中"in"表示列值为多个过滤值之一，详情请见“过滤值”的说明。
+具体javascript代码如下：</p>
+
+<pre><code>      switch (condition) {
+      case "is" :
+        return field === value;
+      case "is not" :
+        return field !== value;
+      case "=" :
+        if (isNumber(value) &amp;&amp; isNumber(field)) {
+          return parseFloat(field) === parseFloat(value);
+        } else {
+          return field === value;
+        }
+      case "&lt;" :
+        if (isNumber(value) &amp;&amp; isNumber(field)) {
+          return parseFloat(field) &lt; parseFloat(value);
+        } else {
+          return field &lt; value;
+        }
+      case "&gt;" :
+        if (isNumber(value) &amp;&amp; isNumber(field)) {
+          return parseFloat(field) &gt; parseFloat(value);
+        } else {
+          return field &gt; value;
+        }
+      case "&gt;=" :
+        if (isNumber(value) &amp;&amp; isNumber(field)) {
+          return parseFloat(field) &gt;= parseFloat(value);
+        } else {
+          return field &gt;= value;
+        }
+      case "&lt;=" :
+        if (isNumber(value) &amp;&amp; isNumber(field)) {
+          return parseFloat(field) &lt;= parseFloat(value);
+        } else {
+          return field &lt;= value;
+        }
+      case "contains" :
+        return field.indexOf(value) &gt;= 0;
+      case "contains ignoring case" :
+        return field.toLowerCase().indexOf(value.toLowerCase()) &gt;= 0;
+      case "does not contain" :
+        return !(field.indexOf(value) &gt;= 0);
+      case "starts with" :
+        return field.indexOf(value) === 0;
+      case "ends with" :
+        //http://stackoverflow.com/questions/280634/endswith-in-javascript
+        return field.indexOf(value, field.length - value.length) !== -1;
+      case "in" :
+        return value.split(",").some(function (d) {
+          return field === $.trim(d);
+        });
+      default:
+        return false;
+      }
+</code></pre>
+
+<h2>过滤值</h2>
+
+<p>过滤值为一个字符串。</p>
+
+<p>当条件为"=", "&lt;", ">", ">=", "&lt;="时，会优先考虑数值的情况。</p>
+
+<p>当条件为"in"时，为把过滤值字符串分解为以英文","分隔的数组。比如列名为过滤值为字符串"79, 80, 81"， 列名为"year"。则过滤条件为</p>
+
+<pre><code>year in ("79", "80", "81")
+</code></pre>
+
+<p>会把year为"79", "80", "81"的列过滤出来。</p>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

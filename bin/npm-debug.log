@@ -1,0 +1,440 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   'app.js' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose C:\Program Files\nodejs\\node.exe node symlink
+verbose config file C:\Documents and Settings\fahui.jdk\.npmrc
+verbose config file C:\Program Files\nodejs\etc\npmrc
+verbose config file C:\Program Files\nodejs\node_modules\npm\npmrc
+verbose mkdir done: C:\Documents and Settings\fahui.jdk\Application Data\npm 755
+verbose mkdir done: D:\xampp\htdocs\incloud\butterfly 755
+verbose caching D:\xampp\htdocs\incloud\butterfly\package.json
+verbose loadDefaults butterfly@0.0.1
+verbose from cache D:\xampp\htdocs\incloud\butterfly\package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'app.js', null ]
+silly cache add: name, spec, args [ undefined, 'app.js', [ 'app.js', null ] ]
+verbose parsed url { pathname: 'app.js', path: 'app.js', href: 'app.js' }
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400791238-0.13141681114211679'
+verbose mkdir done: C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400791238-0.13141681114211679 755
+verbose chmod C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400791238-0.13141681114211679\tmp.tgz 644
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400791238-0.13141681114211679\___package.npm'
+verbose mkdir done: C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400791238-0.13141681114211679\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400791238-0.13141681114211679\package
+silly gunzTarPerm modes [ '755', '644' ]
+ERR! Not a package C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400791238-0.13141681114211679\tmp.tgz
+ERR! couldn't unpack C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400791238-0.13141681114211679\tmp.tgz to C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400791238-0.13141681114211679
+verbose addNamed [ 'app.js', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'app.js', '', false ]
+verbose raw, before any munging app.js
+verbose url resolving [ 'https://registry.npmjs.org/', './app.js' ]
+verbose url resolved https://registry.npmjs.org/app.js
+http GET https://registry.npmjs.org/app.js
+http 200 https://registry.npmjs.org/app.js
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"D8KA7BEZQIB5R7CM5RFN1GBVR"',
+silly get cb     date: 'Sun, 23 Sep 2012 11:46:35 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '10964' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js'
+verbose mkdir done: C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js 755
+silly name, range, hasData 2 [ 'app.js', '', true ]
+silly versions [ 'app.js',
+silly versions   [ '0.0.1',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.0.8',
+silly versions     '0.0.10',
+silly versions     '0.0.11' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-win32-ia32-5.1.2600',
+verbose bin dist   { shasum: '1aecfd23ce69f33af2422982ba8ee7d899d8695e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/app.js/-/app.js-0.0.11.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/app.js/-/app.js-0.0.11.tgz',
+verbose addRemoteTarball   '1aecfd23ce69f33af2422982ba8ee7d899d8695e' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484'
+verbose mkdir done: C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484 755
+verbose fetch to C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\tmp.tgz
+verbose mkdir done: C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484 755
+http GET https://registry.npmjs.org/app.js/-/app.js-0.0.11.tgz
+http 200 https://registry.npmjs.org/app.js/-/app.js-0.0.11.tgz
+silly updated sha bytes 27867
+info shasum 1aecfd23ce69f33af2422982ba8ee7d899d8695e
+info shasum C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\___package.npm'
+verbose mkdir done: C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+verbose gunzed C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\___package.npm\package
+verbose rm'ed C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\package
+verbose renamed [ 'C:\\DOCUME~1\\fahui.jdk\\LOCALS~1\\Temp\\npm-1348400791238\\1348400796407-0.3543972682673484\\___package.npm\\package',
+verbose renamed   'C:\\DOCUME~1\\fahui.jdk\\LOCALS~1\\Temp\\npm-1348400791238\\1348400796407-0.3543972682673484\\package' ]
+verbose caching C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\package\package.json
+verbose loadDefaults app.js@0.0.11
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\package\package.json
+verbose pack C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\package
+verbose pack C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\package C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\package.tgz
+silly makeList C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\package
+verbose caching C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\package\test\modules\testmod1\package.json
+verbose loadDefaults testmod1@0.0.1
+silly dir, dirLen [ 'C:\\DOCUME~1\\fahui.jdk\\LOCALS~1\\Temp\\npm-1348400791238\\1348400796407-0.3543972682673484\\package\\test\\modules\\testmod1',
+silly dir, dirLen   117 ]
+silly dir, dirLen [ 'C:\\DOCUME~1\\fahui.jdk\\LOCALS~1\\Temp\\npm-1348400791238\\1348400796407-0.3543972682673484\\package',
+silly dir, dirLen   95 ]
+verbose tarball C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\package.tgz
+verbose parent C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400796407-0.3543972682673484\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\___package.npm'
+verbose mkdir done: C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+verbose gunzed C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\___package.npm\package
+verbose rm'ed C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\package
+verbose renamed [ 'C:\\Documents and Settings\\fahui.jdk\\Application Data\\npm-cache\\app.js\\0.0.11\\___package.npm\\package',
+verbose renamed   'C:\\Documents and Settings\\fahui.jdk\\Application Data\\npm-cache\\app.js\\0.0.11\\package' ]
+verbose caching C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\package\package.json
+verbose loadDefaults app.js@0.0.11
+silly updated sha bytes 27780
+info shasum 0a0f859ec592796e754c2c2e154b9a855315bc03
+info shasum C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\package.tgz
+verbose from cache C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\package\package.json
+verbose chmod C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\package.tgz 644
+silly skipping chown for windows C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\package.tgz
+silly resolved [ { name: 'app.js',
+silly resolved     description: 'Packages Node modules as browser apps.',
+silly resolved     version: '0.0.11',
+silly resolved     homepage: 'http://github.com/joehewitt/app.js',
+silly resolved     repository: { type: 'git', url: 'git://github.com/joehewitt/app.js.git' },
+silly resolved     keywords: [ 'compressor' ],
+silly resolved     author: { name: 'Joe Hewitt', email: 'joe@joehewitt.com' },
+silly resolved     contributors: [],
+silly resolved     dependencies: 
+silly resolved      { async: '',
+silly resolved        cssmin: '',
+silly resolved        dandy: '',
+silly resolved        diskcache: '',
+silly resolved        hascan: '',
+silly resolved        express: '',
+silly resolved        'express-cache': '',
+silly resolved        'express-logger': '',
+silly resolved        'express-rewrite': '',
+silly resolved        jsdom: '0.2.2',
+silly resolved        mime: '',
+silly resolved        optimist: '',
+silly resolved        transformjs: '',
+silly resolved        'uglify-js': '',
+silly resolved        underscore: '',
+silly resolved        vows: '>=0.5.4' },
+silly resolved     bin: { appjs: './bin/appjs' },
+silly resolved     main: './lib/appjs',
+silly resolved     directories: { test: './test' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _id: 'app.js@0.0.11',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '0a0f859ec592796e754c2c2e154b9a855315bc03' },
+silly resolved     _from: 'app.js',
+silly resolved     scripts: {} } ]
+info into D:\xampp\htdocs\incloud\butterfly app.js@0.0.11
+info installOne app.js@0.0.11
+verbose from cache C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\app.js\0.0.11\package\package.json
+info unbuild D:\xampp\htdocs\incloud\butterfly\node_modules\app.js
+verbose mkdir (expected) error ENOENT, no such file or directory 'D:\xampp\htdocs\incloud\butterfly\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'D:\xampp\htdocs\incloud\butterfly\node_modules\___app.js.npm'
+verbose mkdir done: D:\xampp\htdocs\incloud\butterfly\node_modules\___app.js.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget D:\xampp\htdocs\incloud\butterfly\node_modules\app.js
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+verbose gunzed D:\xampp\htdocs\incloud\butterfly\node_modules\___app.js.npm\package
+verbose rm'ed D:\xampp\htdocs\incloud\butterfly\node_modules\app.js
+verbose renamed [ 'D:\\xampp\\htdocs\\incloud\\butterfly\\node_modules\\___app.js.npm\\package',
+verbose renamed   'D:\\xampp\\htdocs\\incloud\\butterfly\\node_modules\\app.js' ]
+verbose caching D:\xampp\htdocs\incloud\butterfly\node_modules\app.js\package.json
+verbose loadDefaults app.js@0.0.11
+info preinstall app.js@0.0.11
+verbose from cache D:\xampp\htdocs\incloud\butterfly\node_modules\app.js\package.json
+verbose readDependencies: using package.json deps
+verbose from cache D:\xampp\htdocs\incloud\butterfly\node_modules\app.js\package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'cssmin@', null ]
+silly cache add: name, spec, args [ undefined, 'cssmin@', [ 'cssmin@', null ] ]
+verbose parsed url { pathname: 'cssmin@', path: 'cssmin@', href: 'cssmin@' }
+silly cache add: name, spec, args [ 'cssmin', '', [ 'cssmin', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'cssmin', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'cssmin', '', false ]
+verbose cache add [ 'dandy@', null ]
+silly cache add: name, spec, args [ undefined, 'dandy@', [ 'dandy@', null ] ]
+verbose parsed url { pathname: 'dandy@', path: 'dandy@', href: 'dandy@' }
+silly cache add: name, spec, args [ 'dandy', '', [ 'dandy', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'dandy', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'dandy', '', false ]
+verbose cache add [ 'diskcache@', null ]
+silly cache add: name, spec, args [ undefined, 'diskcache@', [ 'diskcache@', null ] ]
+verbose parsed url { pathname: 'diskcache@',
+verbose parsed url   path: 'diskcache@',
+verbose parsed url   href: 'diskcache@' }
+silly cache add: name, spec, args [ 'diskcache', '', [ 'diskcache', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'diskcache', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'diskcache', '', false ]
+verbose cache add [ 'hascan@', null ]
+silly cache add: name, spec, args [ undefined, 'hascan@', [ 'hascan@', null ] ]
+verbose parsed url { pathname: 'hascan@', path: 'hascan@', href: 'hascan@' }
+silly cache add: name, spec, args [ 'hascan', '', [ 'hascan', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'hascan', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'hascan', '', false ]
+verbose cache add [ 'express@', null ]
+silly cache add: name, spec, args [ undefined, 'express@', [ 'express@', null ] ]
+verbose parsed url { pathname: 'express@', path: 'express@', href: 'express@' }
+silly cache add: name, spec, args [ 'express', '', [ 'express', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'express', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'express', '', false ]
+verbose cache add [ 'express-cache@', null ]
+silly cache add: name, spec, args [ undefined, 'express-cache@', [ 'express-cache@', null ] ]
+verbose parsed url { pathname: 'express-cache@',
+verbose parsed url   path: 'express-cache@',
+verbose parsed url   href: 'express-cache@' }
+silly cache add: name, spec, args [ 'express-cache', '', [ 'express-cache', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'express-cache', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'express-cache', '', false ]
+verbose cache add [ 'express-logger@', null ]
+silly cache add: name, spec, args [ undefined, 'express-logger@', [ 'express-logger@', null ] ]
+verbose parsed url { pathname: 'express-logger@',
+verbose parsed url   path: 'express-logger@',
+verbose parsed url   href: 'express-logger@' }
+silly cache add: name, spec, args [ 'express-logger', '', [ 'express-logger', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'express-logger', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'express-logger', '', false ]
+verbose cache add [ 'express-rewrite@', null ]
+silly cache add: name, spec, args [ undefined, 'express-rewrite@', [ 'express-rewrite@', null ] ]
+verbose parsed url { pathname: 'express-rewrite@',
+verbose parsed url   path: 'express-rewrite@',
+verbose parsed url   href: 'express-rewrite@' }
+silly cache add: name, spec, args [ 'express-rewrite', '', [ 'express-rewrite', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'express-rewrite', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'express-rewrite', '', false ]
+verbose cache add [ 'jsdom@0.2.2', null ]
+silly cache add: name, spec, args [ undefined, 'jsdom@0.2.2', [ 'jsdom@0.2.2', null ] ]
+verbose parsed url { pathname: 'jsdom@0.2.2',
+verbose parsed url   path: 'jsdom@0.2.2',
+verbose parsed url   href: 'jsdom@0.2.2' }
+silly cache add: name, spec, args [ 'jsdom', '0.2.2', [ 'jsdom', '0.2.2' ] ]
+verbose parsed url { pathname: '0.2.2', path: '0.2.2', href: '0.2.2' }
+verbose addNamed [ 'jsdom', '0.2.2' ]
+verbose addNamed [ '0.2.2', '0.2.2' ]
+verbose cache add [ 'mime@', null ]
+silly cache add: name, spec, args [ undefined, 'mime@', [ 'mime@', null ] ]
+verbose parsed url { pathname: 'mime@', path: 'mime@', href: 'mime@' }
+silly cache add: name, spec, args [ 'mime', '', [ 'mime', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'mime', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'mime', '', false ]
+verbose cache add [ 'optimist@', null ]
+silly cache add: name, spec, args [ undefined, 'optimist@', [ 'optimist@', null ] ]
+verbose parsed url { pathname: 'optimist@', path: 'optimist@', href: 'optimist@' }
+silly cache add: name, spec, args [ 'optimist', '', [ 'optimist', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'optimist', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'optimist', '', false ]
+verbose cache add [ 'transformjs@', null ]
+silly cache add: name, spec, args [ undefined, 'transformjs@', [ 'transformjs@', null ] ]
+verbose parsed url { pathname: 'transformjs@',
+verbose parsed url   path: 'transformjs@',
+verbose parsed url   href: 'transformjs@' }
+silly cache add: name, spec, args [ 'transformjs', '', [ 'transformjs', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'transformjs', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'transformjs', '', false ]
+verbose cache add [ 'uglify-js@', null ]
+silly cache add: name, spec, args [ undefined, 'uglify-js@', [ 'uglify-js@', null ] ]
+verbose parsed url { pathname: 'uglify-js@',
+verbose parsed url   path: 'uglify-js@',
+verbose parsed url   href: 'uglify-js@' }
+silly cache add: name, spec, args [ 'uglify-js', '', [ 'uglify-js', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'uglify-js', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'uglify-js', '', false ]
+verbose cache add [ 'underscore@', null ]
+silly cache add: name, spec, args [ undefined, 'underscore@', [ 'underscore@', null ] ]
+verbose parsed url { pathname: 'underscore@',
+verbose parsed url   path: 'underscore@',
+verbose parsed url   href: 'underscore@' }
+silly cache add: name, spec, args [ 'underscore', '', [ 'underscore', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'underscore', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'underscore', '', false ]
+verbose raw, before any munging cssmin
+verbose url resolving [ 'https://registry.npmjs.org/', './cssmin' ]
+verbose url resolved https://registry.npmjs.org/cssmin
+http GET https://registry.npmjs.org/cssmin
+verbose raw, before any munging dandy
+verbose url resolving [ 'https://registry.npmjs.org/', './dandy' ]
+verbose url resolved https://registry.npmjs.org/dandy
+http GET https://registry.npmjs.org/dandy
+verbose raw, before any munging diskcache
+verbose url resolving [ 'https://registry.npmjs.org/', './diskcache' ]
+verbose url resolved https://registry.npmjs.org/diskcache
+http GET https://registry.npmjs.org/diskcache
+verbose raw, before any munging hascan
+verbose url resolving [ 'https://registry.npmjs.org/', './hascan' ]
+verbose url resolved https://registry.npmjs.org/hascan
+http GET https://registry.npmjs.org/hascan
+verbose raw, before any munging express
+verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+verbose url resolved https://registry.npmjs.org/express
+http GET https://registry.npmjs.org/express
+verbose raw, before any munging express-cache
+verbose url resolving [ 'https://registry.npmjs.org/', './express-cache' ]
+verbose url resolved https://registry.npmjs.org/express-cache
+http GET https://registry.npmjs.org/express-cache
+verbose raw, before any munging express-logger
+verbose url resolving [ 'https://registry.npmjs.org/', './express-logger' ]
+verbose url resolved https://registry.npmjs.org/express-logger
+http GET https://registry.npmjs.org/express-logger
+verbose raw, before any munging express-rewrite
+verbose url resolving [ 'https://registry.npmjs.org/', './express-rewrite' ]
+verbose url resolved https://registry.npmjs.org/express-rewrite
+http GET https://registry.npmjs.org/express-rewrite
+verbose raw, before any munging optimist
+verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+verbose url resolved https://registry.npmjs.org/optimist
+http GET https://registry.npmjs.org/optimist
+verbose cache add [ 'async@', null ]
+silly cache add: name, spec, args [ undefined, 'async@', [ 'async@', null ] ]
+verbose parsed url { pathname: 'async@', path: 'async@', href: 'async@' }
+silly cache add: name, spec, args [ 'async', '', [ 'async', '' ] ]
+verbose parsed url { href: '' }
+verbose addNamed [ 'async', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'async', '', false ]
+verbose cache add [ 'vows@>=0.5.4', null ]
+silly cache add: name, spec, args [ undefined, 'vows@>=0.5.4', [ 'vows@>=0.5.4', null ] ]
+verbose parsed url { pathname: 'vows@', path: 'vows@', href: 'vows@' }
+silly cache add: name, spec, args [ 'vows', '>=0.5.4', [ 'vows', '>=0.5.4' ] ]
+verbose parsed url { pathname: '=0.5.4', path: '=0.5.4', href: '=0.5.4' }
+verbose addNamed [ 'vows', '>=0.5.4' ]
+verbose addNamed [ null, '>=0.5.4' ]
+silly name, range, hasData [ 'vows', '>=0.5.4', false ]
+verbose raw, before any munging jsdom/0.2.2
+verbose url resolving [ 'https://registry.npmjs.org/', './jsdom/0.2.2' ]
+verbose url resolved https://registry.npmjs.org/jsdom/0.2.2
+http GET https://registry.npmjs.org/jsdom/0.2.2
+verbose raw, before any munging transformjs
+verbose url resolving [ 'https://registry.npmjs.org/', './transformjs' ]
+verbose url resolved https://registry.npmjs.org/transformjs
+http GET https://registry.npmjs.org/transformjs
+verbose raw, before any munging vows
+verbose url resolving [ 'https://registry.npmjs.org/', './vows' ]
+verbose url resolved https://registry.npmjs.org/vows
+http GET https://registry.npmjs.org/vows
+verbose raw, before any munging async
+verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+verbose url resolved https://registry.npmjs.org/async
+http GET https://registry.npmjs.org/async
+verbose raw, before any munging uglify-js
+verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js' ]
+verbose url resolved https://registry.npmjs.org/uglify-js
+http GET https://registry.npmjs.org/uglify-js
+verbose raw, before any munging underscore
+verbose url resolving [ 'https://registry.npmjs.org/', './underscore' ]
+verbose url resolved https://registry.npmjs.org/underscore
+http GET https://registry.npmjs.org/underscore
+verbose raw, before any munging mime
+verbose url resolving [ 'https://registry.npmjs.org/', './mime' ]
+verbose url resolved https://registry.npmjs.org/mime
+http GET https://registry.npmjs.org/mime
+http 200 https://registry.npmjs.org/cssmin
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"C8VSI677MOX0E6IODOP2ID0VR"',
+silly get cb     date: 'Sun, 23 Sep 2012 11:46:43 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '2620' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\cssmin'
+verbose mkdir done: C:\Documents and Settings\fahui.jdk\Application Data\npm-cache\cssmin 755
+silly name, range, hasData 2 [ 'cssmin', '', true ]
+silly versions [ 'cssmin', [ '0.1.0', '0.2.0', '0.3.0', '0.3.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-win32-ia32-5.1.2600',
+verbose bin dist   { shasum: 'db7e733e77d175b1202622f5805f4fe98987e761',
+verbose bin dist     tarball: 'http://registry.npmjs.org/cssmin/-/cssmin-0.3.1.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/cssmin/-/cssmin-0.3.1.tgz',
+verbose addRemoteTarball   'db7e733e77d175b1202622f5805f4fe98987e761' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400803526-0.9217108930461109'
+verbose mkdir done: C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400803526-0.9217108930461109 755
+verbose fetch to C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400803526-0.9217108930461109\tmp.tgz
+verbose mkdir done: C:\DOCUME~1\fahui.jdk\LOCALS~1\Temp\npm-1348400791238\1348400803526-0.9217108930461109 755
+http GET https://registry.npmjs.org/cssmin/-/cssmin-0.3.1.tgz
+http 404 https://registry.npmjs.org/express-cache
+silly get cb [ 404,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     date: 'Sun, 23 Sep 2012 11:46:43 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '52',
+silly get cb     'cache-control': 'must-revalidate' } ]
+verbose about to build D:\xampp\htdocs\incloud\butterfly\node_modules\app.js
+ERR! error installing app.js@0.0.11
+info unbuild D:\xampp\htdocs\incloud\butterfly\node_modules\app.js
+verbose from cache D:\xampp\htdocs\incloud\butterfly\node_modules\app.js\package.json
+info preuninstall app.js@0.0.11
+info uninstall app.js@0.0.11
+verbose unbuild app.js@0.0.11 [ true,
+verbose unbuild app.js@0.0.11   'D:\\xampp\\htdocs\\incloud\\butterfly\\node_modules',
+verbose unbuild app.js@0.0.11   'D:\\xampp\\htdocs\\incloud\\butterfly\\node_modules' ]
+verbose binRoot [ 'D:\\xampp\\htdocs\\incloud\\butterfly\\node_modules\\.bin',
+verbose binRoot   { appjs: './bin/appjs' } ]
+info postuninstall app.js@0.0.11
+verbose installOne cb app.js@0.0.11
+ERR! 404 'express-cache' is not in the npm registry.
+ERR! 404 You should bug the author to publish it
+ERR! 404 Note that you can also install from a
+ERR! 404 tarball, folder, or http url, or git url.
+ERR! 
+ERR! System Windows_NT 5.1.2600
+ERR! command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "app.js"
+ERR! cwd D:\xampp\htdocs\incloud\butterfly\bin
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! code E404
+ERR! message 404 Not Found: express-cache
+ERR! errno {}
+verbose exit [ 1, true ]
